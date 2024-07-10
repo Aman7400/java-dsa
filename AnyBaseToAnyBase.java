@@ -6,7 +6,6 @@ public class AnyBaseToAnyBase {
             int num = sc.nextInt();
             int base1 = sc.nextInt(); // given base
             int base2 = sc.nextInt(); // to convert base
-            int counter = 0;
             int newNum = 0;
 
             // Convert from base 1 to Decimal

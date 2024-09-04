@@ -3,7 +3,12 @@ import java.util.Scanner;
 public class IsPrime {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
+
             int number = sc.nextInt();
+            if (number <2) {
+                System.out.println("Not PRime");
+                return;
+            }
             int counter = 0;
 
 

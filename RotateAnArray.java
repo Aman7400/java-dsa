@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+//! Right Rotation
 public class RotateAnArray {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {

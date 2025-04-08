@@ -1,13 +1,11 @@
 package tuf.binarysearch;
 
-public class LowerBound {
+public class UpperBound {
     public static void main(String[] args) {
-        System.out.println(lowerBound(new int[] {3,5,8,15,19 }, 3));
+        System.out.println(upperBound(new int[] {3,5,8,15,19 }, 3));
     }
 
-    // ! Brute
-
-    public static int lowerBound(int[] nums, int x) {
+    public static int upperBound(int[] nums, int x) {
 
         int low = 0;
         int high = nums.length - 1;
@@ -15,7 +13,7 @@ public class LowerBound {
 
         while (low <= high) {
             int mid = (low + high) / 2 ;
-            if (nums[mid]>= x) {
+            if (nums[mid]> x) {
                 ans = mid;
                 high = mid - 1;
             } else {
@@ -28,4 +26,5 @@ public class LowerBound {
         return ans;
 
     }
+
 }

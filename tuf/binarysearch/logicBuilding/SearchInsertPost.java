@@ -1,5 +1,7 @@
 package tuf.binarysearch.logicBuilding;
 
+
+// ! it follows same logic like Lower Bound
 public class SearchInsertPost {
     public static void main(String[] args) {
 

@@ -13,6 +13,8 @@
 # pass arraylist as input 
 
 ````java
+int arr[] = new int[] { 3, 1, 2, 3, 3, 3, 3 };
+
  ArrayList<Integer> nums = new ArrayList<>();
         for (int num : arr) {
             nums.add(num);

@@ -9,3 +9,14 @@
 
         System.out.println();
 ````
+
+# pass arraylist as input 
+
+````java
+ ArrayList<Integer> nums = new ArrayList<>();
+        for (int num : arr) {
+            nums.add(num);
+        }
+
+        System.out.println(searchArry(nums, 3));
+````
